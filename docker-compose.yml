@@ -1,0 +1,39 @@
+version: "3"
+services:
+  web:
+    build: .
+    volumes:
+      - .:/go/src/kuakuaAi
+    environment:
+      PRORUNMODE: prod
+      MONGO_DB_HOST: mongodb
+      MONGO_DB_USER: root
+      MONGO_DB_PASSWORD: root
+      REDIS_DB_HOST: redisdb
+    depends_on:
+      - mongodb
+      - redisdb
+    networks:
+      - kuakuaAi-bridge
+    ports:
+      - "8080:8080"
+    entrypoint: ./kuakuaAi
+  mongodb:
+    image: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+    volumes:
+      - ./data:/data/db
+    networks:
+      - kuakuaAi-bridge
+  redisdb:
+    image: redis
+    networks:
+      - kuakuaAi-bridge
+
+networks:
+  kuakuaAi-bridge:
+    driver: bridge
+
+

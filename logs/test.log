@@ -1,0 +1,112 @@
+2019/03/13 12:33:14.389 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2019/03/13 12:34:11.459 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:34:11] "GET /v1/test HTTP/1.1 404 0" 0.000802  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:34:12.611 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:34:12] "GET /favicon.ico HTTP/1.1 404 0" 0.000248 http://localhost:8080/v1/test Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:35:30.966 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2019/03/13 12:36:52.568 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2019/03/13 12:36:54.161 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:36:54] "GET /v1/test HTTP/1.1 200 0" 0.000191  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:36:55.792 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:36:55] "GET /v1/test HTTP/1.1 200 0" 0.000122  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:36:56.648 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:36:56] "GET /v1/test HTTP/1.1 200 0" 0.000095  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:36:57.013 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:36:57] "GET /v1/test HTTP/1.1 200 0" 0.000127  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:41:33.801 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2019/03/13 12:41:37.064 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:41:37] "GET /v1/test HTTP/1.1 200 0" 0.000377  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:41:37.615 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:41:37] "GET /v1/test HTTP/1.1 200 0" 0.000116  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:41:45.867 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:41:45] "GET /apidoc HTTP/1.1 302 0" 0.000032  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:41:45.983 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:41:45] "GET /apidoc/ HTTP/1.1 200 0" 0.000222  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:41:46.043 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:41:46] "GET /apidoc/swagger-ui.css HTTP/1.1 200 0" 0.000410 http://localhost:8080/apidoc/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:41:46.052 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:41:46] "GET /apidoc/swagger-ui-standalone-preset.js HTTP/1.1 200 0" 0.003096 http://localhost:8080/apidoc/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:41:46.053 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:41:46] "GET /apidoc/swagger-ui-bundle.js HTTP/1.1 200 0" 0.009941 http://localhost:8080/apidoc/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:41:47.220 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:41:47] "GET /apidoc/swagger.json HTTP/1.1 200 0" 0.000111 http://localhost:8080/apidoc/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:41:48.157 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:41:48] "GET /apidoc/favicon-32x32.png HTTP/1.1 200 0" 0.000060 http://localhost:8080/apidoc/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:41:48.169 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:41:48] "GET /apidoc/favicon-16x16.png HTTP/1.1 200 0" 0.000099 http://localhost:8080/apidoc/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:43:21.159 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:43:21] "GET /apidoc/ HTTP/1.1 304 0" 0.000073  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:43:21.189 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:43:21] "GET /apidoc/swagger-ui-bundle.js HTTP/1.1 304 0" 0.000056 http://localhost:8080/apidoc/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:43:21.190 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:43:21] "GET /apidoc/swagger-ui.css HTTP/1.1 304 0" 0.000059 http://localhost:8080/apidoc/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:43:21.192 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:43:21] "GET /apidoc/swagger-ui-standalone-preset.js HTTP/1.1 304 0" 0.000049 http://localhost:8080/apidoc/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:43:21.297 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:43:21] "GET /apidoc/swagger.json HTTP/1.1 304 0" 0.000026 http://localhost:8080/apidoc/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:43:21.370 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:43:21] "GET /apidoc/favicon-32x32.png HTTP/1.1 200 0" 0.000067 http://localhost:8080/apidoc/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:43:21.373 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:43:21] "GET /apidoc/favicon-16x16.png HTTP/1.1 304 0" 0.000022 http://localhost:8080/apidoc/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:43:21.928 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:43:21] "GET /apidoc/ HTTP/1.1 304 0" 0.000072  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:43:22.116 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:43:22] "GET /apidoc/favicon-32x32.png HTTP/1.1 200 0" 0.000056 http://localhost:8080/apidoc/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:43:30.732 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:43:30] "GET /apidoc/ HTTP/1.1 304 0" 0.000062  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:43:30.884 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:43:30] "GET /apidoc/favicon-32x32.png HTTP/1.1 200 0" 0.000040 http://localhost:8080/apidoc/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:43:39.333 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2019/03/13 12:43:41.877 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:43:41] "GET /apidoc/ HTTP/1.1 304 0" 0.000100  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:43:42.009 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:43:42] "GET /apidoc/favicon-32x32.png HTTP/1.1 200 0" 0.000083 http://localhost:8080/apidoc/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:43:42.683 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:43:42] "GET /apidoc/ HTTP/1.1 304 0" 0.000077  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:43:42.829 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:43:42] "GET /apidoc/favicon-32x32.png HTTP/1.1 200 0" 0.000040 http://localhost:8080/apidoc/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:43:50.886 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2019/03/13 12:43:53.248 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:43:53] "GET /apidoc/ HTTP/1.1 304 0" 0.000270  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:43:53.440 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:43:53] "GET /apidoc/favicon-32x32.png HTTP/1.1 200 0" 0.000092 http://localhost:8080/apidoc/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:43:56.202 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:43:56] "GET /apidoc/ HTTP/1.1 304 0" 0.000108  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:43:56.354 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:43:56] "GET /apidoc/favicon-32x32.png HTTP/1.1 200 0" 0.000087 http://localhost:8080/apidoc/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:44:11.992 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2019/03/13 12:44:13.218 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:44:13] "GET /apidoc/ HTTP/1.1 304 0" 0.000119  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:44:13.348 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:44:13] "GET /apidoc/swagger.json HTTP/1.1 200 0" 0.000094 http://localhost:8080/apidoc/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:44:13.397 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:44:13] "GET /apidoc/favicon-32x32.png HTTP/1.1 200 0" 0.000142 http://localhost:8080/apidoc/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:44:28.904 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2019/03/13 12:44:30.666 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:44:30] "GET /apidoc/ HTTP/1.1 304 0" 0.000193  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:44:30.691 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:44:30] "GET /apidoc/swagger-ui.css HTTP/1.1 304 0" 0.000153 http://localhost:8080/apidoc/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:44:30.698 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:44:30] "GET /apidoc/swagger-ui-bundle.js HTTP/1.1 304 0" 0.006985 http://localhost:8080/apidoc/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:44:30.699 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:44:30] "GET /apidoc/swagger-ui-standalone-preset.js HTTP/1.1 304 0" 0.006433 http://localhost:8080/apidoc/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:44:30.826 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:44:30] "GET /apidoc/swagger.json HTTP/1.1 200 0" 0.000121 http://localhost:8080/apidoc/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:44:30.872 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:44:30] "GET /apidoc/favicon-32x32.png HTTP/1.1 200 0" 0.000134 http://localhost:8080/apidoc/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:44:30.885 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:44:30] "GET /apidoc/favicon-16x16.png HTTP/1.1 304 0" 0.000077 http://localhost:8080/apidoc/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:44:33.458 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:44:33] "GET /apidoc/ HTTP/1.1 304 0" 0.000081  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:44:33.566 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:44:33] "GET /apidoc/swagger.json HTTP/1.1 304 0" 0.000024 http://localhost:8080/apidoc/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:44:33.613 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:44:33] "GET /apidoc/favicon-32x32.png HTTP/1.1 200 0" 0.000079 http://localhost:8080/apidoc/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:44:34.136 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:44:34] "GET /apidoc/ HTTP/1.1 304 0" 0.000067  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:44:34.242 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:44:34] "GET /apidoc/swagger.json HTTP/1.1 304 0" 0.000052 http://localhost:8080/apidoc/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:44:34.286 [D] [server.go:2697] ::1 - - [13/Mar/2019 12:44:34] "GET /apidoc/favicon-32x32.png HTTP/1.1 200 0" 0.000052 http://localhost:8080/apidoc/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+2019/03/13 12:45:47.473 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2019/03/13 04:49:40.992 [I] [asm_amd64.s:2361] http server Running on http://:8080
